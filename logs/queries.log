@@ -1,0 +1,538 @@
+2021-08-27 12:33:32 Debug: duration=8 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 12:33:32 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 12:33:33 Debug: duration=198 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 12:33:33 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 12:33:33 Debug: duration=1 rows=2 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users LIMIT 20 OFFSET 0
+2021-08-27 12:33:33 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM users Users
+2021-08-27 12:47:34 Debug: duration=14 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 12:47:34 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 12:47:34 Debug: duration=3 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 12:47:34 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 12:47:34 Debug: duration=0 rows=2 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users LIMIT 20 OFFSET 0
+2021-08-27 12:47:34 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM users Users
+2021-08-27 12:59:02 Debug: duration=7 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 12:59:02 Debug: duration=2 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 12:59:02 Debug: duration=3 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 12:59:02 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 12:59:07 Debug: duration=0 rows=2 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users
+2021-08-27 12:59:42 Debug: duration=1 rows=2 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users
+2021-08-27 13:02:43 Debug: duration=12 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:02:43 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:02:43 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:02:43 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:02:43 Debug: duration=0 rows=0 BEGIN
+2021-08-27 13:02:43 Debug: duration=0 rows=0 ROLLBACK
+2021-08-27 13:06:00 Debug: duration=1 rows=1 SHOW TABLES FROM `api_db`
+2021-08-27 13:06:00 Debug: duration=10 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:06:00 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:06:00 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:06:00 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:06:01 Debug: duration=11 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:06:01 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:06:01 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:06:01 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:07:22 Debug: duration=1 rows=1 SHOW TABLES FROM `api_db`
+2021-08-27 13:07:22 Debug: duration=11 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:07:22 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:07:22 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:07:22 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:08:10 Debug: duration=7 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:08:10 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:08:10 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:08:10 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:08:44 Debug: duration=13 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:08:44 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:08:44 Debug: duration=5 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:08:44 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:08:44 Debug: duration=0 rows=0 BEGIN
+2021-08-27 13:08:44 Debug: duration=9 rows=1 INSERT INTO users (created) VALUES ('2021-08-27 13:08:44')
+2021-08-27 13:08:44 Debug: duration=0 rows=0 COMMIT
+2021-08-27 13:11:05 Debug: duration=20 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:11:05 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:11:05 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:11:05 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:14:29 Debug: duration=11 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:14:29 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:14:29 Debug: duration=7 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:14:29 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:14:48 Debug: duration=0 rows=0 BEGIN
+2021-08-27 13:14:48 Debug: duration=0 rows=1 INSERT INTO users (created) VALUES ('2021-08-27 13:14:48')
+2021-08-27 13:14:48 Debug: duration=0 rows=0 COMMIT
+2021-08-27 13:19:55 Debug: duration=11 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:19:55 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:19:55 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:19:55 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:22:11 Debug: duration=8 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:22:11 Debug: duration=2 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:22:11 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:22:11 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:23:31 Debug: duration=0 rows=0 BEGIN
+2021-08-27 13:23:31 Debug: duration=19 rows=1 INSERT INTO users (created) VALUES ('2021-08-27 13:23:31')
+2021-08-27 13:23:31 Debug: duration=0 rows=0 COMMIT
+2021-08-27 13:26:35 Debug: duration=10 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:26:35 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:26:35 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:26:35 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:28:40 Debug: duration=6 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:28:40 Debug: duration=2 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:28:40 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:28:40 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:35:52 Debug: duration=12 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:35:52 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:35:52 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:35:52 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:36:39 Debug: duration=1 rows=2 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users
+2021-08-27 13:38:36 Debug: duration=7 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:38:36 Debug: duration=2 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:38:36 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:38:36 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:38:53 Debug: duration=0 rows=0 BEGIN
+2021-08-27 13:38:53 Debug: duration=1 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit' LIMIT 1
+2021-08-27 13:38:53 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-27 13:38:53 Debug: duration=13 rows=1 INSERT INTO users (firstname, lastname, username, email, password, created) VALUES ('khemit', 'verma', 'khemit', 'khemit.verma25@gmail.com', '123456', '2021-08-27 13:38:53')
+2021-08-27 13:38:53 Debug: duration=0 rows=0 COMMIT
+2021-08-27 13:39:07 Debug: duration=0 rows=0 BEGIN
+2021-08-27 13:39:07 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit' LIMIT 1
+2021-08-27 13:39:07 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-27 13:39:07 Debug: duration=0 rows=0 ROLLBACK
+2021-08-27 13:40:49 Debug: duration=11 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:40:49 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:40:49 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:40:49 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:40:49 Debug: duration=0 rows=0 BEGIN
+2021-08-27 13:40:49 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit' LIMIT 1
+2021-08-27 13:40:49 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-27 13:40:49 Debug: duration=0 rows=0 ROLLBACK
+2021-08-27 13:41:31 Debug: duration=0 rows=0 BEGIN
+2021-08-27 13:41:31 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit' LIMIT 1
+2021-08-27 13:41:31 Debug: duration=1 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-27 13:41:31 Debug: duration=0 rows=0 ROLLBACK
+2021-08-27 13:41:57 Debug: duration=0 rows=0 BEGIN
+2021-08-27 13:41:57 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit' LIMIT 1
+2021-08-27 13:41:57 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-27 13:41:57 Debug: duration=0 rows=0 ROLLBACK
+2021-08-27 13:43:44 Debug: duration=9 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:43:44 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:43:44 Debug: duration=4 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:43:44 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:43:44 Debug: duration=0 rows=0 BEGIN
+2021-08-27 13:43:44 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit' LIMIT 1
+2021-08-27 13:43:44 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-27 13:43:44 Debug: duration=0 rows=0 ROLLBACK
+2021-08-27 13:44:19 Debug: duration=0 rows=0 BEGIN
+2021-08-27 13:44:19 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit' LIMIT 1
+2021-08-27 13:44:19 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-27 13:44:19 Debug: duration=0 rows=0 ROLLBACK
+2021-08-27 13:50:05 Debug: duration=11 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:50:05 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:50:05 Debug: duration=3 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:50:05 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:50:05 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-27 13:52:12 Debug: duration=12 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:52:12 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:52:12 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:52:12 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:52:12 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-27 13:52:58 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit' LIMIT 1
+2021-08-27 13:52:58 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-27 13:53:08 Debug: duration=2 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khedmit' LIMIT 1
+2021-08-27 13:53:08 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmaifl.com' LIMIT 1
+2021-08-27 13:53:08 Debug: duration=0 rows=0 BEGIN
+2021-08-27 13:53:08 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khedmit' LIMIT 1
+2021-08-27 13:53:08 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmaifl.com' LIMIT 1
+2021-08-27 13:53:08 Debug: duration=18 rows=1 INSERT INTO users (firstname, lastname, username, email, password, created) VALUES ('khemit', 'verma', 'khedmit', 'khemit.verma25@gmaifl.com', '123456', '2021-08-27 13:53:08')
+2021-08-27 13:53:08 Debug: duration=0 rows=0 COMMIT
+2021-08-27 13:53:34 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khedmit' LIMIT 1
+2021-08-27 13:53:34 Debug: duration=2 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmaifl.com' LIMIT 1
+2021-08-27 13:54:00 Debug: duration=0 rows=4 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users
+2021-08-27 13:54:03 Debug: duration=0 rows=4 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users
+2021-08-27 13:54:13 Debug: duration=10 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-27 13:54:13 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-27 13:54:13 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-27 13:54:13 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-27 13:54:13 Debug: duration=0 rows=4 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users
+2021-08-27 13:54:22 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khedmit' LIMIT 1
+2021-08-27 13:54:22 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmaifl.com' LIMIT 1
+2021-08-27 13:54:54 Debug: duration=1 rows=4 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users
+2021-08-30 05:12:14 Debug: duration=76 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-30 05:12:14 Debug: duration=183 rows=1 SHOW INDEXES FROM `users`
+2021-08-30 05:12:14 Debug: duration=168 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-30 05:12:14 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-30 05:15:50 Debug: duration=27 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-30 05:15:50 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-30 05:15:50 Debug: duration=3 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-30 05:15:50 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-30 05:17:14 Debug: duration=1 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'sdffs' LIMIT 1
+2021-08-30 05:17:29 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'sdffs' LIMIT 1
+2021-08-30 05:17:41 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'sdffs' LIMIT 1
+2021-08-30 05:17:41 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'k' LIMIT 1
+2021-08-30 05:18:12 Debug: duration=31 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-30 05:18:12 Debug: duration=2 rows=1 SHOW INDEXES FROM `users`
+2021-08-30 05:18:12 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-30 05:18:12 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-30 05:18:12 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'sdffs' LIMIT 1
+2021-08-30 05:18:12 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'k' LIMIT 1
+2021-08-30 05:18:13 Debug: duration=1 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'sdffs' LIMIT 1
+2021-08-30 05:18:13 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'k' LIMIT 1
+2021-08-30 05:18:42 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'sdffs' LIMIT 1
+2021-08-30 05:18:42 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'k' LIMIT 1
+2021-08-30 05:18:56 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'sdffs' LIMIT 1
+2021-08-30 05:19:08 Debug: duration=1 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'sdffs' LIMIT 1
+2021-08-30 05:19:17 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'sdffs' LIMIT 1
+2021-08-30 05:19:48 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'k' LIMIT 1
+2021-08-30 05:20:39 Debug: duration=28 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-30 05:20:39 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-30 05:20:39 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-30 05:20:39 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-30 05:20:39 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'kv' LIMIT 1
+2021-08-30 05:20:39 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'kv@gmail.com' LIMIT 1
+2021-08-30 05:20:39 Debug: duration=0 rows=0 BEGIN
+2021-08-30 05:20:40 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'kv' LIMIT 1
+2021-08-30 05:20:40 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'kv@gmail.com' LIMIT 1
+2021-08-30 05:20:40 Debug: duration=10 rows=1 INSERT INTO users (firstname, lastname, username, email, password, created) VALUES ('k', 'v', 'kv', 'kv@gmail.com', '12', '2021-08-30 05:20:40')
+2021-08-30 05:20:40 Debug: duration=0 rows=0 COMMIT
+2021-08-30 05:25:27 Debug: duration=33 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-30 05:25:27 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-30 05:25:27 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-30 05:25:27 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-30 05:25:27 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'kv' LIMIT 1
+2021-08-30 05:25:27 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'kv@gmail.com' LIMIT 1
+2021-08-30 05:25:33 Debug: duration=1 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'kvh' LIMIT 1
+2021-08-30 05:25:33 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'kv@hgmail.com' LIMIT 1
+2021-08-30 05:25:33 Debug: duration=0 rows=0 BEGIN
+2021-08-30 05:25:33 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'kvh' LIMIT 1
+2021-08-30 05:25:33 Debug: duration=1 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'kv@hgmail.com' LIMIT 1
+2021-08-30 05:25:33 Debug: duration=17 rows=1 INSERT INTO users (firstname, lastname, username, email, password, created) VALUES ('k', 'v', 'kvh', 'kv@hgmail.com', '$2y$10$negEPfVwkEWZvnP051XVnewB5.YfmgLO0314eIISvZvfuHTsGIl26', '2021-08-30 05:25:33')
+2021-08-30 05:25:33 Debug: duration=0 rows=0 COMMIT
+2021-08-30 05:26:15 Debug: duration=0 rows=6 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users
+2021-08-30 05:26:21 Debug: duration=0 rows=6 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users
+2021-08-30 05:26:52 Debug: duration=0 rows=6 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users
+2021-08-30 05:30:21 Debug: duration=30 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-30 05:30:21 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-30 05:30:21 Debug: duration=6 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-30 05:30:21 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-30 05:32:48 Debug: duration=39 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-30 05:32:48 Debug: duration=3 rows=1 SHOW INDEXES FROM `users`
+2021-08-30 05:32:48 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-30 05:32:48 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-30 05:33:25 Debug: duration=0 rows=6 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users
+2021-08-30 05:53:10 Debug: duration=16 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-30 05:53:10 Debug: duration=2 rows=1 SHOW INDEXES FROM `users`
+2021-08-30 05:53:10 Debug: duration=3 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-30 05:53:10 Debug: duration=2 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-30 05:53:10 Debug: duration=0 rows=6 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users LIMIT 20 OFFSET 0
+2021-08-30 05:53:10 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM users Users
+2021-08-30 05:59:09 Debug: duration=45 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-30 05:59:09 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-30 05:59:09 Debug: duration=5 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-30 05:59:09 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-30 05:59:09 Debug: duration=3 rows=3 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users LIMIT 20 OFFSET 0
+2021-08-30 05:59:09 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM users Users
+2021-08-30 05:59:48 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'kvh' LIMIT 1
+2021-08-30 05:59:48 Debug: duration=1 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'kv@hgmail.com' LIMIT 1
+2021-08-30 05:59:55 Debug: duration=0 rows=3 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users LIMIT 20 OFFSET 0
+2021-08-30 05:59:55 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM users Users
+2021-08-30 06:00:22 Debug: duration=0 rows=3 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users LIMIT 20 OFFSET 0
+2021-08-30 06:00:22 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM users Users
+2021-08-30 06:02:10 Debug: duration=32 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-30 06:02:10 Debug: duration=2 rows=1 SHOW INDEXES FROM `users`
+2021-08-30 06:02:10 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-30 06:02:10 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-30 06:02:10 Debug: duration=0 rows=3 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users LIMIT 20 OFFSET 0
+2021-08-30 06:02:10 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM users Users
+2021-08-30 06:02:30 Debug: duration=0 rows=3 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users LIMIT 20 OFFSET 0
+2021-08-30 06:02:30 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM users Users
+2021-08-30 06:02:41 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'kvh' LIMIT 1
+2021-08-30 06:03:59 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'kvh' LIMIT 1
+2021-08-30 06:04:08 Debug: duration=0 rows=3 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users LIMIT 20 OFFSET 0
+2021-08-30 06:04:08 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM users Users
+2021-08-30 06:04:53 Debug: duration=27 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-30 06:04:53 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-30 06:04:53 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-30 06:04:53 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-30 06:04:53 Debug: duration=0 rows=3 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users LIMIT 20 OFFSET 0
+2021-08-30 06:04:53 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM users Users
+2021-08-30 06:04:59 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'kvh' LIMIT 1
+2021-08-30 06:08:46 Debug: duration=32 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-30 06:08:46 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-30 06:08:46 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-30 06:08:46 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-30 06:08:46 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit25' LIMIT 1
+2021-08-30 06:08:46 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-30 06:08:46 Debug: duration=0 rows=0 BEGIN
+2021-08-30 06:08:46 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit25' LIMIT 1
+2021-08-30 06:08:46 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-30 06:08:46 Debug: duration=8 rows=1 INSERT INTO users (firstname, lastname, username, email, password, created) VALUES ('Khemit', 'verma', 'khemit25', 'khemit.verma25@gmail.com', '$2y$10$vuTtYMv37VNwg5zrIsSni.cPIl4GS7vvKtP9jBd.40MQtuxE.lsq.', '2021-08-30 06:08:46')
+2021-08-30 06:08:46 Debug: duration=0 rows=0 COMMIT
+2021-08-30 06:09:43 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit25' LIMIT 1
+2021-08-30 06:09:43 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-30 06:15:13 Debug: duration=41 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-30 06:15:13 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-30 06:15:13 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-30 06:15:13 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-30 06:16:18 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit25' LIMIT 1
+2021-08-30 06:16:18 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-30 06:16:18 Debug: duration=0 rows=0 BEGIN
+2021-08-30 06:16:18 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit25' LIMIT 1
+2021-08-30 06:16:18 Debug: duration=2 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-30 06:16:18 Debug: duration=17 rows=1 INSERT INTO users (firstname, lastname, username, email, password, created) VALUES ('Khemit', 'verma', 'khemit25', 'khemit.verma25@gmail.com', '$2y$10$JQncf8pQ/taSks0EzEcz8uX70sA8wQgvUzIBDMohTwp//kl2dN/om', '2021-08-30 06:16:18')
+2021-08-30 06:16:18 Debug: duration=0 rows=0 COMMIT
+2021-08-30 06:16:42 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit25' LIMIT 1
+2021-08-30 06:16:42 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-30 06:18:09 Debug: duration=42 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-30 06:18:09 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-30 06:18:09 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-30 06:18:09 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-30 06:18:09 Debug: duration=0 rows=4 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users LIMIT 20 OFFSET 0
+2021-08-30 06:18:09 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM users Users
+2021-08-30 06:28:36 Debug: duration=65 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-30 06:28:36 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-30 06:28:36 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-30 06:28:36 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-30 06:28:36 Debug: duration=0 rows=4 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users LIMIT 20 OFFSET 0
+2021-08-30 06:28:36 Debug: duration=1 rows=1 SELECT (COUNT(*)) AS `count` FROM users Users
+2021-08-30 06:29:36 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit25' LIMIT 1
+2021-08-30 06:29:36 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma25@gmail.com' LIMIT 1
+2021-08-30 06:30:32 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit256' LIMIT 1
+2021-08-30 06:30:32 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma256@gmail.com' LIMIT 1
+2021-08-30 06:30:32 Debug: duration=0 rows=0 BEGIN
+2021-08-30 06:30:32 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit256' LIMIT 1
+2021-08-30 06:30:32 Debug: duration=0 rows=0 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma256@gmail.com' LIMIT 1
+2021-08-30 06:30:32 Debug: duration=16 rows=1 INSERT INTO users (firstname, lastname, username, email, password, created) VALUES ('Khemit', 'verma', 'khemit256', 'khemit.verma256@gmail.com', '$2y$10$2V.ZP94XvMIEbx7IEuaNn.bKm1diN2mFqRX3ghYEt0m5ioT1jGwW.', '2021-08-30 06:30:32')
+2021-08-30 06:30:32 Debug: duration=0 rows=0 COMMIT
+2021-08-30 06:33:44 Debug: duration=49 rows=7 SHOW FULL COLUMNS FROM `users`
+2021-08-30 06:33:44 Debug: duration=1 rows=1 SHOW INDEXES FROM `users`
+2021-08-30 06:33:44 Debug: duration=2 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'api_db' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2021-08-30 06:33:44 Debug: duration=3 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2021-08-30 06:33:44 Debug: duration=0 rows=5 SELECT Users.id AS `Users__id`, Users.firstname AS `Users__firstname`, Users.lastname AS `Users__lastname`, Users.username AS `Users__username`, Users.email AS `Users__email`, Users.password AS `Users__password`, Users.created AS `Users__created` FROM users Users LIMIT 20 OFFSET 0
+2021-08-30 06:33:44 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM users Users
+2021-08-30 06:33:55 Debug: duration=0 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.username = 'khemit256' LIMIT 1
+2021-08-30 06:33:55 Debug: duration=1 rows=1 SELECT 1 AS `existing` FROM users Users WHERE Users.email = 'khemit.verma256@gmail.com' LIMIT 1
